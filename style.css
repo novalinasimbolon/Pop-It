@@ -1,0 +1,253 @@
+
+    html,body {
+        height: 100%;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .bg-one {
+        background-image: url('images/background.png');
+        height: 900px;
+    }
+
+    .bg-two {
+        background-image: url('images/background2.png');
+        height: 900px;
+    }
+
+    .mySlides img {
+        vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        display: none;
+    }
+
+    /* Fading animation */
+    .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+    from {
+        opacity: .4
+    } 
+    to {
+        opacity: 1
+    }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+    }
+
+    .section-one {
+        height: 900px;
+        width: 100%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .navbar-left {
+        width: 65%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar-right {
+        float: right;
+        width: 35%;
+
+    }
+
+    .navbar-right li {
+        display: inline;
+        padding-right: 75px;
+    }
+
+    .content{
+        margin-left: 50px;
+    }
+
+    .content h1{
+        font-size: 75pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+    }
+
+    .content p {
+        font-size: 15pt;
+        font-family: 'Trebuchet MS';
+        padding-bottom: 90px;
+    }
+
+    .content button {
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: #B9E0FF;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: monospace;
+    }
+
+    .section-two {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .content2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .content2-child{
+        display: flex;
+        justify-content: center;
+    }
+
+    .content2-child p {
+        margin: auto;
+    }
+
+    .section-three {
+        background-color: #B9E0FF;
+        height: 450px;
+    }
+
+    .section-three h1 {
+        padding-top: 50px;
+    }
+
+    .content3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-one {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-one img {
+        margin: auto;
+    }
+
+    .image-two {
+        width : 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-two img {
+        margin: auto;
+    }
+
+    .image-three {
+        width : 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-three img{
+        margin: auto;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content3 p {
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .btn button {
+        width: 100px;
+        height: 25px;
+        border: none;
+        background-color: #F7A76C;
+        /* padding: 9px 32px; */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: monospace;
+        }
+
+    .section-four {
+        background-image: url('images/bg-grid.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        height: 550px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content4 {
+        padding-top: 75px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 1px solid blue;
+    }
+
+    
+    .content4-left {
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .content4-left h2 {
+        padding-top: 12%;
+    }
+
+    .content4-left p {
+        padding-top: 7%;
+    }
+
+    .content4-right{
+        width: 50%;
+        display: flex;
+    }
+
+    .content4-right img {
+        margin: auto;
+        width: 350px;
+        height: 350px;
+    }
